@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+.streaming-cursor {
+  display: inline-block;
+  animation: blink 0.85s step-start infinite;
+  color: #d97706;
+  margin-left: 1px;
+}
