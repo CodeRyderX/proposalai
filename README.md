@@ -1,16 +1,52 @@
-# React + Vite
+# ProposalAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered Upwork proposal writer. Paste a job description and instantly get 3 tailored proposal variants — each written from a different angle.
 
-Currently, two official plugins are available:
+## What it does
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Social Proof** — leads with your most relevant past win or experience
+- **Problem-First** — opens by naming the client's exact pain point
+- **Quick Win** — leads with something specific you'd deliver in the first 48 hours
 
-## React Compiler
+All proposals draw from your personal knowledge bank (skills, tools, case studies) so every output feels specific, never generic.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built with
 
-## Expanding the ESLint configuration
+- React + Vite
+- Tailwind CSS
+- Anthropic Claude API (streaming)
+- localStorage — no backend, no database
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting started
+
+1. Clone the repo
+```bash
+   git clone https://github.com/CodeRyderX/proposalai.git
+   cd proposalai
+```
+
+2. Install dependencies
+```bash
+   npm install
+```
+
+3. Add your Anthropic API key
+```bash
+   cp .env.example .env
+```
+   Then add your key to `.env`
+
+4. Run the app
+```bash
+   npm run dev
+```
+
+## Usage
+
+1. Go to **Settings** and add your skills, tools, and past wins
+2. Paste an Upwork job description into the Generator
+3. Hit **Generate Proposals** and get 3 ready-to-send proposals in seconds
+
+## Author
+
+Built by [Emmanuel](https://github.com/CodeRyderX) — freelance automation specialist.
