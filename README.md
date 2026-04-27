@@ -41,6 +41,17 @@ All proposals draw from your personal knowledge bank (skills, tools, case studie
    npm run dev
 ```
 
+## Screenshots
+
+![Generator - Light Mode](generator-light.png)
+
+![Generator - Dark Mode](generator-dark.png)
+
+![Proposals Generated](generator-output.png)
+
+![Settings Page](settings.png)
+
+
 ## Usage
 
 1. Go to **Settings** and add your skills, tools, and past wins
