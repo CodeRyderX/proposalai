@@ -49,7 +49,7 @@ All proposals draw from your personal knowledge bank (skills, tools, case studie
 
 ![Proposals Generated](generator-output.png)
 
-![Settings Page](settings.png)
+![Settings Page](generator-settings.png)
 
 
 ## Usage
